@@ -45,7 +45,7 @@ public class MainForm extends JFrame {
     private void openSelectedForm(int selectedIndex) {
         JFrame selectedForm = null;
 
-        switch (selectedIndex) {
+        switch (selectedIndex) { 
             case 0 -> selectedForm = new ListsForm();
             case 1 -> selectedForm = new StacksForm();
             case 2 -> selectedForm = new QueuesForm();
